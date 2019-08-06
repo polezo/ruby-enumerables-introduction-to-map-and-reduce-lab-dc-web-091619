@@ -53,18 +53,14 @@ def reduce_to_all_true (arr)
   while i < arr.length
   if arr[i]
     arr2.push(arr[i])
-<<<<<<< HEAD
   else return false
       end
       i+=1
-=======
       end
->>>>>>> 718f9aa1bb6ad1f20cce4e0672a2f85ced3f5df6
     end
    return arr2
   end
   
-<<<<<<< HEAD
   
 def reduce_to_any_true (arr)
   i = 0
@@ -77,7 +73,4 @@ def reduce_to_any_true (arr)
     end
     return false
   end  
-=======
-    
-    
->>>>>>> 718f9aa1bb6ad1f20cce4e0672a2f85ced3f5df6
+
