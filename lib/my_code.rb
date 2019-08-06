@@ -1,32 +1,41 @@
 def map_to_negativize (arr) 
+  arr2=[]
   i=0
   while i < arr.length 
-    arr[i]*=-1
+    arr2.push(arr[i]*-1)
     i+=1
   end
-  return arr
+  arr2
 end
 
 def map_to_no_change (arr)
-    arr
+    arr2=[]
+    i=0
+  while i < arr.length
+    arr2.push(arr[i])
+    i+=1
+  end
+  arr2
 end
 
 def map_to_double (arr)
-    i=0
+  arr2=[]  
+  i=0
   while i < arr.length 
-    arr[i]*=2
+    arr2.push(arr[i]*=2)
     i+=1
   end
-  return arr
+  return arr2
 end
 
 def map_to_square (arr)
-    i=0
+  arr2=[]
+  i=0
   while i < arr.length 
-    arr[i]**=2
+    arr2.push(arr[i]**=2)
     i+=1
   end
-  return arr
+  return arr2
 end
 
 def reduce_to_total (arr, total=0)
