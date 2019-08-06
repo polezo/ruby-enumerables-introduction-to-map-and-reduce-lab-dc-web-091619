@@ -57,10 +57,8 @@ def reduce_to_all_true (arr)
       end
       i+=1
       end
-    end
    return arr2
   end
-  
   
 def reduce_to_any_true (arr)
   i = 0
